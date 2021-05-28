@@ -13,7 +13,7 @@
         echo "<br>".$friends[$i];
     
     }
-
+//
 
 
     ?>
