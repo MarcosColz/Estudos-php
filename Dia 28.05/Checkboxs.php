@@ -25,6 +25,7 @@ $lang = $_GET ["linguaguens"];
         echo $lang[$i];
     }
 }
+//
 
 error_reporting(E_ERROR | E_WARNING | E_PARSE);
 ?>
