@@ -29,7 +29,7 @@ while($i <= 1) {
         }
         while($SegundoCabeçalho < 1) {
             $b++;
-            echo "<td>".$ano[0]."</td>";  
+            echo "<td>".$anoCriacao[0]."</td>";  
             echo "<td>".$Idealista[0]."</td>"; 
         }
 
