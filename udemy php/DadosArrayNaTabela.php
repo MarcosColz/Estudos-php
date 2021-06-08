@@ -1,8 +1,8 @@
 <?php
-$empresa = array ("Coffe");
-$linguagens = array("Java"=>"a","Kotlin");
-$ano = array("1999");
-$nomeC = array("Martin");
+$empresaCriadora = array ("Sun Microsystems","JetBrains");
+$linguagens = array("Java","Kotlin");
+$anoCriacao = array("1996","2011");
+$Idealista = array("James Gosling","JetBrains");
 
 
  
@@ -16,22 +16,21 @@ echo "<tr><td>Empresa criadora</td>"
 ."</tr>"; // Fechamos o cabeçalho. 
 
 $i = 0;
-$a = 0;
-$b = 0;
-$c = 0;
+$PrimeiroCabeçalho = 0;
+$SegundoCabeçalho = 0;
 while($i <= 1) {
     $i++;
     //Não exibi todos os dados, agora é só você completar, colocando cada célula dentro de um <td>
         
-        while($a < 1) {
+        while($PrimeiroCabeçalho < 1) {
             $a++;
             echo "<td>".$empresa[0]. "</td>";
             echo "<td>".$linguagens[0]."</td>";  
         }
-        while($b < 1) {
+        while($SegundoCabeçalho < 1) {
             $b++;
             echo "<td>".$ano[0]."</td>";  
-            echo "<td>".$nomeC[0]."</td>"; 
+            echo "<td>".$Idealista[0]."</td>"; 
         }
 
         
